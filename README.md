@@ -1,5 +1,5 @@
-
 python -m venv myenv
-myenv\Scripts\activate
-cd Robillos_Django_Setup
+myenv\Scripts\activate    (or)   source myenv/bin/activate
+pip install -r requirements.txt
+python manage.py migrate
 python manage.py runserver
